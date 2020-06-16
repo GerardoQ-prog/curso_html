@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+    <!-- cambiar archivo css -->
+    <link rel="stylesheet" type="text/css" href="./css/fondo.css">
+    <style>
+        /*selector universal
+        *{
+            background: lightblue;
+        }
+         -->
+        /*selector por id
+        #parrafo{
+            background: red;
+        }
+        /*selector por classe
+        .encabezado{
+            background: yellow;
+            color: black;
+        }
+        .secctionclass{
+            background: gray;
+        }
+        /*selector de atributo
+        a[href]{
+            color: lightcoral;
+        }*/
+    </style>
 </head>
 <body>
     <!-- Encabezado -->
-    <header>
+    <header class="encabezado">
         <i>Logo</i>
         <h1>GerardoQ</h1>
     </header>
@@ -20,13 +45,15 @@
         </ul>
     </nav>
     <!-- Secciones -->
-    <section>
+    <section class="secctionclass">
         Contenido
     </section>
     <section>
         <!-- contenido -->
         <div>
             <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum officiis officia nulla voluptates alias perspiciatis obcaecati sed eius maxime cupiditate corrupti facilis delectus quam, mollitia minus dolor atque vitae at.</h1>
+            <p id="parrafo">aas</p>
+            <a href="google.com">google</a>
         </div>
     </section>
     <!-- Info adicional -->

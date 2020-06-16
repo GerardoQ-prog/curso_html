@@ -1,0 +1,12 @@
+.anchoestatico{
+    background: green;
+    width: 300px;
+}
+.anchoMin{
+    background: green;
+    min-width: 500px;
+}
+.anchoMax{
+    background: green;
+    max-width: 500px;
+}

@@ -1,0 +1,16 @@
+.pixels{
+    background: red;
+    /* width: 300px; */
+    width: 10em;
+    font-size: 20px;
+}
+.porcentaje{
+    /* background: blue; */
+    width: 50%;
+    /* border-style: double; */
+    /* valores: arriba - abajo y izquierda-derecha */
+    /* border-width: 5px 15px;
+    border-color: blue ; */
+    /* grosor tipo color */
+    border: 2px solid blue
+}

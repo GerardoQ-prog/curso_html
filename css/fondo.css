@@ -1,0 +1,15 @@
+body{
+    /* background: blue;
+    background-image: 
+    url(https://www.gohawaii.com/sites/default/files/styles/embedded_video_large/public/video-thumbnails/ZiplineKauai.jpg?itok=2UU5ELbu&timestamp=1539877369);
+    /* para que nos e repita la imagen */
+    /* background-repeat: no-repeat ; */
+    /* a la derecha y arriba*/
+    /* background-position: right top; */ 
+
+}
+header{
+    background-image: url(https://www.gohawaii.com/sites/default/files/styles/embedded_video_large/public/video-thumbnails/ZiplineKauai.jpg?itok=2UU5ELbu&timestamp=1539877369);
+    /* Mantener estatico el header al scrollear */
+    background-attachment: fixed;
+}
