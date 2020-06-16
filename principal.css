@@ -1,4 +1,7 @@
-
+html{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -11,6 +14,7 @@ a{
 }
 
 .encabezado{
+    
 width: 100%;
 text-align: center;
 font-family: Rasa;
@@ -22,6 +26,7 @@ color: #000000;
 
 }
 .redes{
+    
     font-size: 38px;
     width: 100%;
     display: flex;
@@ -30,11 +35,11 @@ color: #000000;
    
 }
 .container{
+    
     width: 100%;
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    
     justify-content: center;
     align-content: center;
 }
@@ -48,21 +53,29 @@ color: #000000;
     box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
-.posit:hover{
-    transform: scale(1.25)
+.posit:hover , .posit:focus{
+    transform: scale(1.25);
+    position:relative;
 }
 .posit-header{
-    border: 1px solid black;
     display: flex;
 }
 .chinche{
-    border: 1px solid blue;
-    width: 20%;
+    
+    width: 30%;
 }
 .sesion{
-    
+    font-size: 48px;
     display: flex;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+}
+.posit-lista{
+    display: flex;
+    justify-content: center;
+    
+    font-size: 25px;
+    
+    
 }
