@@ -29,10 +29,23 @@ color: #000000;
     height: 100px;
    
 }
-.git{
+.container{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
     
-    
+    justify-content: center;
+    align-content: center;
 }
-.git1{
+.posit{
     
+    border:1px solid green;
+    margin: 30px;
+    width: 456px;
+    padding: 30px;
+    height: 470px;
+
+    background: #F9F1AA;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
 }
